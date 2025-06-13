@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: linear-gradient(144.39deg,#fff -278.56%,#11101d -1000%,#11101d 61%);
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+	color: white;
+
+
+}
+
+p{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*root section*/
+#root{
+	box-sizing: border-box;
+	border: 0 solid;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/*wrap section*/
+
+/*main section*/
+.main-section{
+	padding: 0px 24px;
+}
+
+/*navbar*/
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0px;
+}
+
+.listitems{
+	list-style: none;
+	display: flex;
+	column-gap: 40px;
+	margin-right: 40px;
+}
+
+.listitems a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+/*page-section*/
+.payment{
+	display: flex;
+}
+
+.section{
+	display: flex;
+	padding: 24px 0px;
+}
+
+.payment-section{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.discount-banner{
+	display: flex;
+	border-radius: 10px;
+	margin-bottom: 8px;
+	align-items: center;
+	background: linear-gradient(144.39deg,#fff -600.56%,#11101d 91.61%);
+	padding: 6px 16px;
+	column-gap: 10px;
+}
+
+.discount-banner p{
+	color: white;
+	margin: 0px;
+}
+
+.payment-banner{
+	display: flex;
+	align-items: center;
+}
+
+.custom-heading{
+	font-size: 72px;
+	line-height: 100px;
+	margin: 0px;
+}
+
+.round-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 140px;
+	border-radius: 9999px; /* Full rounded circle */
+	background: linear-gradient(to right, #0b6dd8, #5ad7f3); /* replace with your actual blue gradient */
+	padding: 2px;
+	cursor: pointer;
+
+}
+
+.click{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1f2937; /* Replace with your actual --primary color */
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px; /* Fully rounded (circle) */
+}
+
+.custom-get{
+	display: flex;
+	align-items: center;
+}
+
+
+.gradient{
+	background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent;
+}
+
+.text{
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.custom-get img{
+	width: 23px;
+	height: 23px;
+}
+
+.description{
+	color: #b0b0b0; 
+    font-size: 18px;
+    line-height: 30.8px;
+    max-width: 470px;
+    margin-top: 1.25rem;
+}
+
+.relative-image{
+	flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 2.5rem;  /* 40px */
+    margin-bottom: 2.5rem; /* 40px */
+}
+
+.relative-image img{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+/*last section*/
+.banner{
+	padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row-card{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.content-row{
+	display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.75rem;
+    width: 415px;
+    height: 55px;
+}
+
+.section-title{
+	font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    margin: 0px;
+}
+
+.section-tagline{
+	font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-left: 0.75rem;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    color: transparent;
+}
+
+/*next section*/
+
+.section-flex{
+	display: flex;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.flex-container{
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero-heading {
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 66.8px;
+    color: #ffffff;
+    width: 100%;
+    margin: 0px;
+}
+
+.tagline{
+    font-weight: 400;
+	color: #b0b0b0; 
+    font-size: 18px;
+    line-height: 30.8px;
+    max-width: 470px;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.button{
+	padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    border-radius: 0.375rem; /* 6px */
+    margin-top: 2.5rem; /* 40px */
+    border: none; /* Optional: buttons usually have no border by default */
+    color: #00040f;
+    background: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
+}
+
+.items-banner{
+	flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-left: 0;
+    margin-top: 2.5rem;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  width: 480px;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px; /* Makes it perfectly circular */
+  background-color: var(--color-dimblue); /* Replace with actual color value, e.g., #1e293b */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-text {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.75rem; /* 12px */
+  width: 476px;
+  height: 75px;
+}
+
+.feature-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 0.25rem; /* 4px */
+  margin-top: 0px;
+}
+
+.feature-description {
+    font-weight: 400;
+	color: #b0b0b0; 
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*next section*/
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column-reverse; /* default for mobile */
+  padding-top: 1.5rem; /* 24px */
+  padding-bottom: 1.5rem; /* 24px */
+}
+
+.image-wrapper {
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 0;
+  margin-top: 2.5rem; /* 40px */
+}
+
+.paypal-img{
+	width: 600px;
+	height: 556px;
+}
+
+.hero-white-gradient {
+  position: absolute;
+  z-index: 3;
+  left: -50%;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 9999px; /* fully rounded circle */
+  background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, transparent 100%);
+  /* or use your custom gradient if you have a specific design */
+}
+
+.hero-pink-gradient {
+  position: absolute;
+  z-index: 0;
+  left: -50%;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 9999px; /* perfect circle */
+  background: radial-gradient(circle, rgba(255, 0, 150, 0.4) 0%, transparent 100%);
+  /* or use your custom pink gradient if you have a specific version */
+}
+
+
+.wrapper-content {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wrapper-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 66.8px;
+  width: 100%;
+  margin: 0px;
+}
+
+.wrapper-description {
+    font-weight: 400;
+	color: #b0b0b0;
+    font-size: 18px;
+    line-height: 30.8px;
+    max-width: 470px;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1.5rem; /* 24px */
+}
