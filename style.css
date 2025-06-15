@@ -50,6 +50,14 @@ p{
 	cursor: pointer;
 }
 
+.main-list:hover{
+	background: radial-gradient(#5ce1e6 71.54%,#33bbcf);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;
+}
+
 /*page-section*/
 .payment{
 	display: flex;
@@ -65,8 +73,7 @@ p{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0px 1.5rem;
 }
 
 .discount-banner{
@@ -101,8 +108,8 @@ p{
 	align-items: center;
 	width: 140px;
 	height: 140px;
-	border-radius: 9999px; /* Full rounded circle */
-	background: linear-gradient(to right, #0b6dd8, #5ad7f3); /* replace with your actual blue gradient */
+	border-radius: 9999px; 
+	background: linear-gradient(to right, #0b6dd8, #5ad7f3);
 	padding: 2px;
 	cursor: pointer;
 
@@ -113,10 +120,10 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #1f2937; /* Replace with your actual --primary color */
+    background-color: #1f2937; 
     width: 100%;
     height: 100%;
-    border-radius: 9999px; /* Fully rounded (circle) */
+    border-radius: 9999px; 
 }
 
 .custom-get{
@@ -129,7 +136,7 @@ p{
 	background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; /* for Firefox */
+    background-clip: text; 
     color: transparent;
 }
 
@@ -157,8 +164,8 @@ p{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 2.5rem;  /* 40px */
-    margin-bottom: 2.5rem; /* 40px */
+    margin-top: 2.5rem;  
+    margin-bottom: 2.5rem; 
 }
 
 .relative-image img{
@@ -170,8 +177,7 @@ p{
 
 /*last section*/
 .banner{
-	padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0px 1.5rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -213,7 +219,7 @@ p{
     background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,#def9fa .89%,#bef3f5 17.23%,#9dedf0 42.04%,#7de7eb 55.12%,#5ce1e6 71.54%,#33bbcf);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; /* for Firefox */
+    background-clip: text; 
     color: transparent;
 }
 
@@ -221,8 +227,7 @@ p{
 
 .section-flex{
 	display: flex;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding: 1.5rem 0px;
 }
 
 .flex-container{
@@ -248,7 +253,7 @@ p{
     font-size: 18px;
     line-height: 30.8px;
     max-width: 470px;
-    margin-top: 1.25rem; /* 20px */
+    margin-top: 1.25rem; 
 }
 
 .button{
@@ -257,9 +262,9 @@ p{
     font-weight: 500;
     font-size: 18px;
     outline: none;
-    border-radius: 0.375rem; /* 6px */
-    margin-top: 2.5rem; /* 40px */
-    border: none; /* Optional: buttons usually have no border by default */
+    border-radius: 0.375rem;
+    margin-top: 2.5rem; 
+    border: none; 
     color: #00040f;
     background: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
 }
@@ -276,39 +281,42 @@ p{
 }
 
 .feature-card {
-  display: flex;
-  flex-direction: row;
-  padding: 1.5rem;
-  border-radius: 20px;
-  margin-bottom: 1.5rem;
-  width: 480px;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    width: 480px;
+}
+
+.feature-card:hover{
+    background: linear-gradient(144.39deg,#fff -278.56%,#11101d 110%);
 }
 
 .feature-icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 9999px; /* Makes it perfectly circular */
-  background-color: var(--color-dimblue); /* Replace with actual color value, e.g., #1e293b */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-text {
-  flex: 1 1 0%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 0.75rem; /* 12px */
-  width: 476px;
-  height: 75px;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75rem; 
+    width: 476px;
+    height: 75px;
 }
 
 .feature-title {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 23px;
-  margin-bottom: 0.25rem; /* 4px */
-  margin-top: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 0.25rem; 
+    margin-top: 0px;
 }
 
 .feature-description {
@@ -321,66 +329,67 @@ p{
 /*next section*/
 
 .section-wrapper {
-  display: flex;
-  flex-direction: column-reverse; /* default for mobile */
-  padding-top: 1.5rem; /* 24px */
-  padding-bottom: 1.5rem; /* 24px */
+    display: flex;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
 }
 
 .image-wrapper {
-  flex: 1 1 0%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-right: 0;
-  margin-top: 2.5rem; /* 40px */
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 0;
+    margin-top: 2.5rem; 
 }
 
 .paypal-img{
 	width: 600px;
 	height: 556px;
+	position: relative;
+    z-index: 5;
 }
 
 .hero-white-gradient {
-  position: absolute;
-  z-index: 3;
-  left: -50%;
-  top: 0;
-  width: 50%;
-  height: 50%;
-  border-radius: 9999px; /* fully rounded circle */
-  background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, transparent 100%);
-  /* or use your custom gradient if you have a specific design */
+    position: absolute;
+    z-index: 3;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 9999px; 
+    background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, transparent 100%);
+  
 }
 
 .hero-pink-gradient {
-  position: absolute;
-  z-index: 0;
-  left: -50%;
-  bottom: 0;
-  width: 50%;
-  height: 50%;
-  border-radius: 9999px; /* perfect circle */
-  background: radial-gradient(circle, rgba(255, 0, 150, 0.4) 0%, transparent 100%);
-  /* or use your custom pink gradient if you have a specific version */
+    position: absolute;
+    z-index: 0;
+    left: -50%;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 9999px; 
+    background: radial-gradient(circle, rgba(255, 0, 150, 0.4) 0%, transparent 100%);
+  
 }
 
 
 .wrapper-content {
-  flex: 1 1 0%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .wrapper-title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 66.8px;
-  width: 100%;
-  margin: 0px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66.8px;
+    width: 100%;
+    margin: 0px;
 }
 
 .wrapper-description {
@@ -389,12 +398,395 @@ p{
     font-size: 18px;
     line-height: 30.8px;
     max-width: 470px;
-    margin-top: 1.25rem; /* 20px */
+    margin-top: 1.25rem; 
 }
 
 .button-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 1.5rem; /* 24px */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1.5rem; 
+}
+
+/*next section*/
+.pay-method{
+    display: flex;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem;
+}
+
+.pay-box{
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pay-heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66.8px;
+    width: 100%;
+    margin: 0px;
+}
+
+.pay-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.8px;
+    max-width: 470px;
+    margin-top: 1.25rem;
+	color: #b0b0b0;
+}
+
+
+.pay-button{
+	padding: 1rem 1.5rem;
+	color: #00040f;
+    background: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
+    cursor: pointer;
+	font-weight: 500;
+	font-size: 18px;
+	outline: none;
+	border-radius: 0.375rem;
+	margin-top: 2.5rem;
+	border: none;
+}
+
+.pay-image-container {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.pay-image{
+	width: 600px;
+	height: 520px;
+    position: relative;
+    z-index: 5;
+}
+
+/*next section*/
+.reviews{
+    padding: 1.5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.reviews-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.reviews-heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66.8px;
+    width: 100%;
+    margin: 0px;
+}
+
+.reviews-description-box{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.reviews-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.8px;
+    color: rgba(255, 255, 255, 0.7); 
+    max-width: 450px;
+    text-align: left;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.feedback-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 2.5rem;
+    border-radius: 20px;
+    max-width: 450px;
+    margin-right: 0;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.feedback-card:hover{
+    background: linear-gradient(144.39deg,#fff -278.56%,#11101d 110%);
+
+}
+
+.feedback-img{
+    width: 42.6px;
+    height: 27.6px;
+    object-fit: contain;
+}
+
+.feedback-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.herman-feedback{
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px; 
+}
+
+.feedback-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.feedback-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.feedback-tagline{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*next section*/
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socials-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.socials-card{
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    margin: 1.25rem;
+}
+
+.socials-image{
+    width: 170px;
+    object-fit: contain;
+}
+
+/*next section*/
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 3rem 4rem;
+    background: linear-gradient(144.39deg,#fff -278.56%,#11101d 110%);
+    border-radius: 20px;
+    box-shadow: /* your custom shadow here, e.g. 0 10px 20px rgba(...) */;
+}
+
+.service-box{
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66.8px;
+    width: 100%;
+    margin: 0px;
+}
+
+.service-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.8px;
+    color: #b0b0b0;
+    max-width: 470px;
+    margin-top: 1.25rem;
+}
+
+.services-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2.5rem;
+}
+
+.service-btn{
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #00040f;
+    background: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
+    outline: none;
+    border-radius: 0.375rem; 
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem; 
+    width: 100%;
+}
+
+.footer-description{
+    flex: 1 1 0%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 2.5rem;
+}
+
+.footer-image{
+    width: 266px;
+    height: 72.14px;
+    object-fit: contain;
+}
+
+.footer-tagline{
+    font-weight: 400;
+    color: #b0b0b0; 
+    font-size: 18px;
+    line-height: 30.8px;
+    margin-top: 1rem;
+    max-width: 312px;
+}
+
+.social-links{
+    flex: 1.5 1.5 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;   
+    margin-bottom: 1rem;
+    min-width: 150px;
+}
+
+.links-heading{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0px;
+}
+
+.links-list{
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 0px;
+    color: #b0b0b0;
+}
+
+.footer-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.footer-list:hover{
+	background: radial-gradient(#5ce1e6 71.54%,#33bbcf);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;
+}
+
+
+.footer-copyright{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem; 
+    border-top-width: 1px;
+    border-top-color: #3F3E45;
+    border-top-style: solid; 
+}
+
+.copyright-tagline{
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.copyright-socials{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem; 
+}
+
+.copyright-icon{
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+    cursor: pointer;
+    margin-right: 1.5rem; 
 }
