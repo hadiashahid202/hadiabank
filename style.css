@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,599;1,599&display=swap');body{
     background: linear-gradient(144.39deg,#fff -278.56%,#11101d -1000%,#11101d 61%);
     font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 599;
+    font-style: normal;
     margin: 0px;
     padding: 0px;
 	color: white;
@@ -485,7 +487,6 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 1.5rem;
     position: relative;
     z-index: 1;
