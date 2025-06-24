@@ -183,7 +183,7 @@ p{
     z-index: 5;
 }
 
-/*last section*/
+/*feature section*/
 .banner{
     padding: 0px 1.5rem;
     display: flex;
@@ -231,7 +231,7 @@ p{
     color: transparent;
 }
 
-/*next section*/
+/*cards section*/
 
 .section-flex{
 	display: flex;
@@ -338,7 +338,7 @@ p{
     line-height: 24px;
 }
 
-/*next section*/
+/*billing section*/
 
 .section-wrapper {
     display: flex;
@@ -387,7 +387,6 @@ p{
   
 }
 
-
 .wrapper-content {
     flex: 1 1 0%;
     display: flex;
@@ -435,7 +434,7 @@ p{
     cursor: pointer;
 }
 
-/*next section*/
+/*pay section*/
 .pay-method{
     display: flex;
     padding-top: 1.5rem; 
@@ -466,7 +465,6 @@ p{
     margin-top: 1.25rem;
 	color: #b0b0b0;
 }
-
 
 .pay-button{
 	padding: 1rem 1.5rem;
@@ -502,7 +500,7 @@ p{
     z-index: 5;
 }
 
-/*next section*/
+/*reviews section*/
 .reviews{
     padding: 1.5rem 0px;
     display: flex;
@@ -614,7 +612,7 @@ p{
     color: rgba(255, 255, 255, 0.7);
 }
 
-/*next section*/
+/*socials section*/
 .socials{
     display: flex;
     justify-content: center;
@@ -645,7 +643,7 @@ p{
     object-fit: contain;
 }
 
-/*next section*/
+/*services section*/
 .services{
     display: flex;
     justify-content: center;
@@ -706,6 +704,7 @@ p{
 	background: linear-gradient(257.81deg,#def9fa -43.27%,#9dedf0 12.19%,#7de7eb 29.82%);
 }
 
+/*footer-section*/
 .footer{
     display: flex;
     justify-content: center;
