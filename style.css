@@ -66,8 +66,19 @@ p {
 }
 
 /*page-section*/
-.payment {
+.page-section {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.payment {
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  .payment {
+    max-width: 1280px;
+  }
 }
 
 .section {
