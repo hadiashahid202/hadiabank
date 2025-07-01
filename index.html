@@ -7,19 +7,21 @@
   <body>
     <div id="root">
       <div class="wrap">
-        <!-- section-1 -->
+        <!-- nav-section -->
         <div class="main-section" id="home">
-          <nav class="navbar">
-            <img src="assets/hadibank.svg" alt="HadiaBank" />
-            <ul class="listitems">
-              <li class="main-list"><a href="#home">Home</a></li>
-              <li class="main-list"><a href="#features">Features</a></li>
-              <li class="main-list"><a href="#product">Product</a></li>
-              <li class="main-list"><a href="#clients">Clients</a></li>
-            </ul>
-          </nav>
+        	<div class="nav-section">
+		    	<nav class="navbar">
+		        <img src="assets/hadibank.svg" alt="HadiaBank" />
+		        <ul class="listitems">
+		          <li class="main-list"><a href="#home">Home</a></li>
+		          <li class="main-list"><a href="#features">Features</a></li>
+		          <li class="main-list"><a href="#product">Product</a></li>
+		          <li class="main-list"><a href="#clients">Clients</a></li>
+		        </ul>
+		       </nav>
+        	</div>
         </div>
-        <!-- section 2 -->
+        <!--  payment-method section -->
 
         <div class="page-section">
           <div class="payment">
@@ -59,14 +61,32 @@
 
               <div class="relative-image">
                 <img src="assets/robot.png" />
+                <!-- absolute div -->
+                <div class=""></div>
+                <div class=""></div>
+                <div class=""></div>
+                <!-- absolute div -->
               </div>
+
+              <div class="hidden-get-click">
+              	<div class="round-box">
+              		<div class="click">
+              			<div class="custom-get">
+                          <p><span class="text gradient">Get</span></p>
+                          <img src="assets/arrow.svg" alt="arrow" />
+                        </div>
+                        <p><span class="text gradient">Started</span></p>
+              		</div>
+              	</div>
+              </div>
+
             </section>
           </div>
         </div>
 
         <!-- feature section -->
         <div class="banner" id="features">
-          <div>
+          <div class="banner-container">
             <section class="row-card">
               <div class="content-row">
                 <h4 class="section-title">3800+</h4>
@@ -86,7 +106,7 @@
             <section class="section-flex" id="flex">
               <div class="flex-container">
                 <h2 class="hero-heading">
-                  You do the business, <br />
+                  You do the business, <br class="visibility">
                   we’ll handle the money.
                 </h2>
                 <p class="tagline">
@@ -147,7 +167,7 @@
               </div>
               <div class="wrapper-content">
                 <h2 class="wrapper-title">
-                  Easily control your <br />
+                  Easily control your <br class="visibility">
                   billing & invoicing.
                 </h2>
                 <p class="wrapper-description">
@@ -166,7 +186,7 @@
             <section class="pay-method">
               <div class="pay-box">
                 <h1 class="pay-heading">
-                  Find a better card deal <br />
+                  Find a better card deal <br class="visibility">
                   in few easy steps.
                 </h1>
                 <p class="pay-description">
@@ -185,7 +205,7 @@
               <div></div>
               <div class="reviews-box">
                 <h1 class="reviews-heading">
-                  What people are <br />
+                  What people are <br class="visibility">
                   saying about us
                 </h1>
                 <div class="reviews-description-box">
