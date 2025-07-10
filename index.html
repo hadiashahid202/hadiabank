@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HadiaBank</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <div id="root">
       <div class="wrap">
         <!-- nav-section -->
         <div class="main-section" id="home">
-        	<div class="nav-section">
-		    	<nav class="navbar">
-		        <img src="assets/hadibank.svg" alt="HadiaBank" />
-		        <ul class="listitems">
-		          <li class="main-list"><a href="#home">Home</a></li>
-		          <li class="main-list"><a href="#features">Features</a></li>
-		          <li class="main-list"><a href="#product">Product</a></li>
-		          <li class="main-list"><a href="#clients">Clients</a></li>
-		        </ul>
-           <!--  <div class="hidden-container">
-              <img class="menu" alt="menu" src="assets/hidden-icon.svg">
-              <div class="hidden-sidebar">
-                <ul class="sidebar-listitems">
-                  <li class="sidebar-list"><a href="#home">Home</a></li>
-                  <li class="sidebar-list"><a href="#features">Features</a></li>
-                  <li class="sidebar-list"><a href="#product">Product</a></li>
-                  <li class="sidebar-list"><a href="#clients">Clients</a></li>
-                </ul>
+          <div class="nav-section">
+            <nav class="navbar">
+              <img src="assets/hadibank.svg" alt="HadiaBank" />
+              <ul class="listitems">
+                <li class="main-list"><a href="#home">Home</a></li>
+                <li class="main-list"><a href="#features">Features</a></li>
+                <li class="main-list"><a href="#product">Product</a></li>
+                <li class="main-list"><a href="#clients">Clients</a></li>
+              </ul>
+              <div class="hidden-container">
+                <img class="menu" alt="menu" src="assets/hidden-icon.svg" />
+                <div class="hidden-sidebar" id="sidebar">
+                  <ul class="sidebar-listitems">
+                    <li class="sidebar-list"><a href="#home">Home</a></li>
+                    <li class="sidebar-list">
+                      <a href="#features">Features</a>
+                    </li>
+                    <li class="sidebar-list"><a href="#product">Product</a></li>
+                    <li class="sidebar-list"><a href="#clients">Clients</a></li>
+                  </ul>
+                </div>
               </div>
-            </div> -->
-		       </nav>
-        	</div>
+            </nav>
+          </div>
         </div>
         <!--  payment-method section -->
 
@@ -47,7 +53,7 @@
                 </div>
                 <div class="payment-banner">
                   <h1 class="custom-heading">
-                    The Next <br class="visibility">
+                    The Next <br class="visibility" />
                     <span class="gradient">Generation</span>
                   </h1>
                   <div class="get-click">
@@ -80,17 +86,16 @@
               </div>
 
               <div class="hidden-get-click">
-              	<div class="round-box">
-              		<div class="click">
-              			<div class="custom-get">
-                          <p><span class="text gradient">Get</span></p>
-                          <img src="assets/arrow.svg" alt="arrow" />
-                        </div>
-                        <p><span class="text gradient">Started</span></p>
-              		</div>
-              	</div>
+                <div class="round-box">
+                  <div class="click">
+                    <div class="custom-get">
+                      <p><span class="text gradient">Get</span></p>
+                      <img src="assets/arrow.svg" alt="arrow" />
+                    </div>
+                    <p><span class="text gradient">Started</span></p>
+                  </div>
+                </div>
               </div>
-
             </section>
           </div>
         </div>
@@ -117,7 +122,7 @@
             <section class="section-flex" id="flex">
               <div class="flex-container">
                 <h2 class="hero-heading">
-                  You do the business, <br class="visibility">
+                  You do the business, <br class="visibility" />
                   we’ll handle the money.
                 </h2>
                 <p class="tagline">
@@ -178,7 +183,7 @@
               </div>
               <div class="wrapper-content">
                 <h2 class="wrapper-title">
-                  Easily control your <br class="visibility">
+                  Easily control your <br class="visibility" />
                   billing & invoicing.
                 </h2>
                 <p class="wrapper-description">
@@ -197,7 +202,7 @@
             <section class="pay-method">
               <div class="pay-box">
                 <h1 class="pay-heading">
-                  Find a better card deal <br class="visibility">
+                  Find a better card deal <br class="visibility" />
                   in few easy steps.
                 </h1>
                 <p class="pay-description">
@@ -216,7 +221,7 @@
               <div></div>
               <div class="reviews-box">
                 <h1 class="reviews-heading">
-                  What people are <br class="visibility">
+                  What people are <br class="visibility" />
                   saying about us
                 </h1>
                 <div class="reviews-description-box">
@@ -363,5 +368,6 @@
         <!-- end -->
       </div>
     </div>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

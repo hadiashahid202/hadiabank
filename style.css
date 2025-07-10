@@ -59,18 +59,7 @@ p {
 }
 
 .listitems {
-  list-style: none;
-  display: flex;
-  column-gap: 40px;
-  margin-right: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.listitems a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+  display: none;
 }
 
 .main-list:hover {
@@ -80,55 +69,59 @@ p {
   background-clip: text;
   color: transparent;
 }
-/*
+
 .hidden-container {
-  display: flex;                 
-  flex: 1;                     
-  justify-content: flex-end;   
-  align-items: center;         
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .menu {
-  width: 28px;                
-  height: 28px;              
-  object-fit: contain;       
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .hidden-sidebar {
-  display: flex;                     
-  padding: 1.5rem;                    
-  background: var(--black-gradient); 
-  position: absolute;               
-  top: 5rem;                          
-  right: 0;                           
-  margin: 0.5rem 1rem;         
-  min-width: 140px;                 
-  border-radius: 0.75rem;          
+  display: flex;
+  padding: 1.5rem;
+  background: linear-gradient(144.39deg, #fff -278.56%, #11101d 110%);
+  position: absolute;
+  top: 5rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  width: 80%;
+  left: -100%;
+  transition: left 0.5s ease-in-out;
+  z-index: 1000;
 }
 
 .sidebar-listitems {
   list-style: none;
-  display: flex;               
-  flex: 1;                     
-  flex-direction: column;     
-  justify-content: flex-end;   
-  align-items: flex-start;     
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 .sidebar-list {
-  font-weight: 400;                    
-  cursor: pointer;         
-  font-size: 16px;  
-  color: #ffffff;      
-  margin-bottom: 1rem;      
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 1rem;
 }
 
-.sidebar-list a{
-	text-decoration: none;
-	  color: white;
-	  cursor: pointer;
+.sidebar-list a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
-*/
+
 /*page-section*/
 .page-section {
   display: flex;
@@ -139,11 +132,6 @@ p {
 .payment {
   width: 100%;
 }
-@media (min-width: 1280px) {
-  .payment {
-    max-width: 1280px;
-  }
-}
 
 .section {
   display: flex;
@@ -153,6 +141,7 @@ p {
 }
 
 .payment-section {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -178,6 +167,9 @@ p {
 .payment-banner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
 }
 
 .custom-heading {
@@ -423,7 +415,7 @@ p {
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.5rem;
-  width: 480px;
+  width: 100%;
 }
 
 .feature-card:hover {
@@ -1053,16 +1045,27 @@ p {
 
 @media (min-width: 640px) {
   .listitems {
+    list-style: none;
     display: flex;
+    column-gap: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .listitems a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
   }
 }
 
-/*@media (min-width: 640px) {
+@media (min-width: 640px) {
   .hidden-container {
-    display: none;            
+    display: none;
   }
 }
-*/
+
 /*payment-method section*/
 @media (min-width: 640px) {
   .section {
@@ -1122,6 +1125,12 @@ p {
 @media (min-width: 640px) {
   .visibility {
     display: block;
+  }
+}
+
+@media (min-width: 640px) {
+  .feature-card {
+    width: 480px;
   }
 }
 
@@ -1223,11 +1232,6 @@ p {
 
 /*media query 768px*/
 /*payment-method section*/
-@media (min-width: 768px) {
-  .section {
-    flex-direction: row;
-  }
-}
 
 @media (min-width: 768px) {
   .get-click {
@@ -1330,10 +1334,24 @@ p {
   }
 }
 
+/*media query 850px*/
+@media (min-width: 850px) {
+  .section {
+    flex-direction: row;
+  }
+}
+
 /*media query 1280px*/
 /*nav section*/
 @media (min-width: 1280px) {
   .nav-section {
+    max-width: 1280px;
+  }
+}
+
+/*page section*/
+@media (min-width: 1280px) {
+  .payment {
     max-width: 1280px;
   }
 }
