@@ -58,6 +58,11 @@ p {
   width: 100%;
 }
 
+.nav-image{
+  height: 32px;
+  object-fit: contain;
+}
+
 .listitems {
   display: none;
 }
@@ -1357,6 +1362,7 @@ p {
 }
 
 /*payment-method section*/
+
 @media (min-width: 1280px) {
   .payment-section {
     padding-left: 0;

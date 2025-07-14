@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.gstatic.com https://www.google.com https://code.jquery.com;">
+
     <title>HadiaBank</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -12,10 +14,10 @@
     <div id="root">
       <div class="wrap">
         <!-- nav-section -->
-        <div class="main-section" id="home">
+        <div class="main-section">
           <div class="nav-section">
             <nav class="navbar">
-              <img src="assets/hadibank.svg" alt="HadiaBank" />
+              <img class="nav-image" src="assets/fahidbank.svg" alt="HadiaBank" />
               <ul class="listitems">
                 <li class="main-list"><a href="#home">Home</a></li>
                 <li class="main-list"><a href="#features">Features</a></li>
@@ -40,7 +42,7 @@
         </div>
         <!--  payment-method section -->
 
-        <div class="page-section">
+        <div class="page-section" id="home">
           <div class="payment">
             <section class="section">
               <div class="payment-section">
@@ -353,7 +355,7 @@
               </div>
               <div class="footer-copyright">
                 <p class="copyright-tagline">
-                  Copyright Ⓒ FahidBank. All Rights Reserved.
+                  Copyright Ⓒ HadiaBank. All Rights Reserved.
                 </p>
                 <div class="copyright-socials">
                   <img class="copyright-icon" src="assets/insta.svg" />
