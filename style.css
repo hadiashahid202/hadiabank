@@ -1135,7 +1135,7 @@ p {
 
 @media (min-width: 640px) {
   .feature-card {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -1235,16 +1235,16 @@ p {
   }
 }
 
-/*media query 768px*/
+/*media query 820px*/
 /*payment-method section*/
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .get-click {
     margin-right: 1rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .relative-image {
     margin-top: 0;
     margin-bottom: 0;
@@ -1252,13 +1252,13 @@ p {
 }
 
 /*cards section*/
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .section-flex {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .items-banner {
     margin-left: 2.5rem;
     margin-top: 0;
@@ -1267,26 +1267,26 @@ p {
 
 /*billing section*/
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .section-wrapper {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .image-wrapper {
     margin-right: 2.5rem;
     margin-top: 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .pay-method {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .pay-image-container {
     margin-left: 2.5rem;
     margin-top: 0;
@@ -1294,20 +1294,20 @@ p {
 }
 
 /*reviews section*/
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .reviews-box {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .reviews-description-box {
     margin-top: 0;
   }
 }
 
 /*feedback section*/
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .feedback-card {
     margin-right: 2.5rem;
   }
@@ -1315,25 +1315,25 @@ p {
 
 /*footer section*/
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .footer-section {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .social-links {
     margin-top: 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .footer-copyright {
     flex-direction: row;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 820px) {
   .copyright-socials {
     margin-top: 0;
   }
