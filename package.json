@@ -1,0 +1,25 @@
+{
+  "name": "hadiabank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadiashahid202/hadiabank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hadiashahid202/hadiabank/issues"
+  },
+  "homepage": "https://github.com/hadiashahid202/hadiabank#readme",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-zip": "^6.1.0"
+  }
+}
